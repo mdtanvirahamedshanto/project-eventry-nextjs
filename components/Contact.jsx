@@ -1,18 +1,18 @@
 const Contact = () => {
   return (
     <div className="flex justify-center items-center h-screen">
-      <div className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+      <div className="bg-[#18191A] text-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
         <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
         <form>
           <div className="mb-4">
             <label
-              className="block text-gray-700 text-sm font-bold mb-2"
+              className="block bg-[#18191A] text-white  text-sm font-bold mb-2"
               htmlFor="name"
             >
               Name
             </label>
             <input
-              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              className="shadow appearance-none border rounded w-full py-2 px-3 bg-[#18191A] text-white leading-tight focus:outline-none focus:shadow-outline"
               id="name"
               type="text"
               placeholder="Enter your name"
@@ -20,13 +20,13 @@ const Contact = () => {
           </div>
           <div className="mb-4">
             <label
-              className="block text-gray-700 text-sm font-bold mb-2"
+              className="block bg-[#18191A] text-white text-sm font-bold mb-2"
               htmlFor="email"
             >
               Email
             </label>
             <input
-              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              className="shadow appearance-none border rounded w-full py-2 px-3 bg-[#18191A] text-white leading-tight focus:outline-none focus:shadow-outline"
               id="email"
               type="email"
               placeholder="Enter your email"
@@ -34,13 +34,13 @@ const Contact = () => {
           </div>
           <div className="mb-4">
             <label
-              className="block text-gray-700 text-sm font-bold mb-2"
+              className="block bg-[#18191A] text-white text-sm font-bold mb-2"
               htmlFor="message"
             >
               Message
             </label>
             <textarea
-              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              className="shadow appearance-none border rounded w-full py-2 px-3 bg-[#18191A] text-white leading-tight focus:outline-none focus:shadow-outline"
               id="message"
               rows="4"
               placeholder="Enter your message"
